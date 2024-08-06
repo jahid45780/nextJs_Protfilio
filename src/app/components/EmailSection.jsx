@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import FacebookIcon from "../../../public/images.svg";
 import Link from "next/link";
 import Image from "next/image";
+
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -56,12 +58,17 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/jahid45780">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/md-jahid-91589a295">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+
+          <Link href="https://www.facebook.com/mdjahid.hossain.16547">
+            <Image className="w-12 h-12 rounded-full" src={FacebookIcon} alt="Facebook" />
+          </Link>
+
         </div>
       </div>
       <div>
@@ -84,7 +91,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="jahid@google.com"
               />
             </div>
             <div className="mb-6">

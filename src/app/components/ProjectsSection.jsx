@@ -7,57 +7,67 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "E-commerce Website JB_Booking ",
+    description: "",
+    image: "https://i.ibb.co/5WMjx05/434008021-437764225323106-1756247123103651093-n.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jahid45780/JB-Booking-Client",
+    previewUrl: "https://jb-booking-29f8e.web.app",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "E-commerce Website Bike_Word",
+    description: "",
+    image: "https://i.ibb.co/WxjDrJJ/452307462-2517755975084991-2627788061562128089-n.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jahid45780/Bike_Word_Client",
+    previewUrl: "https://bike-word.vercel.app",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: " React JS Website Bangler_khrisi",
+    description: "",
+    image: "https://i.ibb.co/HpF3mG8/448872375-416789734684783-4986924758388445742-n.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jahid45780/bangler_khrisi",
+    previewUrl: "https://bangler-khrisi.web.app",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "JavaScript Website PH_Tube",
+    description: "",
+    image: "/images/projects/PH.png",
+    tag: ["All", "JavaScript"],
+    gitUrl: "https://github.com/jahid45780/PH_tube",
+    previewUrl: "http://phrero-tube.surge.sh",
   },
+
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "React Portfolio Website",
+    description: "",
+    image: "/images/projects/jahid.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "",
+    previewUrl: "https://md-jahid.vercel.app",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "React Management Website",
+    description: "",
+    image: "https://i.ibb.co/f1W7BZq/423472292-373334398959442-8059960308667372083-n.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/jahid45780/wedding-management",
+    previewUrl: "https://wedding-management-b09ed.web",
+  },
+  {
+    id: 7,
+    title: "JavaScript Website Weather",
+    description: "",
+    image: "/images/projects/weather.png",
+    tag: ["All", "JavaScript"],
+    gitUrl: "https://github.com/jahid45780/PRODIGY_TaskNubber-4",
+    previewUrl: "https://weather-azure-rho.vercel.app",
   },
 ];
 
@@ -97,8 +107,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="JavaScript"
+          isSelected={tag === "JavaScript"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
