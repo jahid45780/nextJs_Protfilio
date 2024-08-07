@@ -62,7 +62,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "JavaScript Website Weather",
+    title: "JavaScript Weather Website",
     description: "",
     image: "/images/projects/weather.png",
     tag: ["All", "JavaScript"],
