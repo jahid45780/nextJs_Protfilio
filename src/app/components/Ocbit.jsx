@@ -24,7 +24,7 @@ const Ocbit = () => {
             </div>
           
             <div className="planet">
-            <Image className="photo-orbit" width={200} height={200} alt="html" src="/images/react.png" ></Image>
+            <Image className="photo-orbit" width={200} height={200} alt="html" src="/images/reatJs.png" ></Image>
             </div>
 
               

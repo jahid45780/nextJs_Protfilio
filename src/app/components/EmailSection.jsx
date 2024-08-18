@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import FacebookIcon from "../../../public/images.svg";
+import GithubIcon from "../../../public/GitHub.png";
+import LinkedinIcon from "../../../public/Linkdin-removebg-preview.png";
+import FacebookIcon from "../../../public/Facebook_Logo.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -44,7 +44,7 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
+      className="grid md:grid-cols-2 items-center my-12 md:my-12 py-24 gap-4 relative"
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-4">
@@ -59,14 +59,14 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/jahid45780">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image className="w-20 h-20 rounded-full object-cover" src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/md-jahid-91589a295">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image className="w-20 h-20 rounded-full object-cover" src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
 
           <Link href="https://www.facebook.com/mdjahid.hossain.16547">
-            <Image className="w-12 h-12 rounded-full" src={FacebookIcon} alt="Facebook" />
+            <Image className="w-20 h-20 rounded-full object-cover" src={FacebookIcon} alt="Facebook" />
           </Link>
 
         </div>

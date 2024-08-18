@@ -52,7 +52,7 @@ const HeroSection = () => {
            
              
               <button className=" px-6 inline-block py-3 w-full sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-              <a className=" flex items-center gap-2 "  href="Resume_Jahid.pdf" download='Resume_MD Jahid' > Resume <FaDownload></FaDownload>  </a> 
+              <a className=" flex items-center gap-2 "  href="Resume_MD Jahid.pdf" download='Resume_MD Jahid' > Resume <FaDownload></FaDownload>  </a> 
               </button>
           
           </div>
