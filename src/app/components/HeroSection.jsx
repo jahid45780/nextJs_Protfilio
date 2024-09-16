@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaDownload } from "react-icons/fa";
 
+
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
@@ -67,7 +68,7 @@ const HeroSection = () => {
             <Image
               src="/images/Jahid.jfif"
               alt="hero image"
-              className="absolute rounded-full border-2 border-dashed border-[#e2dddd] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
+              className="absolute rounded-full border-2 border-dashed border-[#e2dddd] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 hover:scale-125 hover:rotate-12 duration-300 "
               width={300}
               height={300}
             />

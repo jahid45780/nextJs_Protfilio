@@ -9,8 +9,8 @@ const Footer = () => {
                 <h1 className=" text-lg font-semibold" >Copyright © 2025- All right reserved</h1>
                 
 
-       <Link href="/" >
-       <button className="text-6xl bg-green-500 hover:bg-green-700 rounded-3xl text-black " > <BiArrowToTop></BiArrowToTop> </button>
+       <Link href="#banner" >
+       <button className="text-6xl bg-green-500 hover:bg-green-700 rounded-3xl duration-700 text-black " > <BiArrowToTop></BiArrowToTop> </button>
        </Link>   
            
            
