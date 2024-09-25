@@ -53,12 +53,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "React Management Website",
+    title: "React Food Booking Website",
     description: "",
-    image: "https://i.ibb.co/f1W7BZq/423472292-373334398959442-8059960308667372083-n.png",
+    image: "https://i.ibb.co.com/pwxRqJB/6PzHgZ8h.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jahid45780/wedding-management",
-    previewUrl: "https://wedding-management-b09ed.web",
+    previewUrl: "https://resturent-booking-jade.vercel.app/",
   },
   {
     id: 7,
