@@ -69,6 +69,24 @@ const projectsData = [
     gitUrl: "https://github.com/jahid45780/PRODIGY_TaskNubber-4",
     previewUrl: "https://weather-azure-rho.vercel.app",
   },
+  {
+    id: 8,
+    title: "React Project Good Food",
+    description: "",
+    image: "https://i.ibb.co.com/w7SNxSS/B9VD0Ga9.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jahid45780/Food-Project",
+    previewUrl: "https://colo-khiya-asi.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "React Project Ant Shop",
+    description: "",
+    image: "https://i.ibb.co.com/FhRHjq7/ENa1jz3h.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jahid45780/Ant-shop",
+    previewUrl: "https://ant-shop-swart.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {
