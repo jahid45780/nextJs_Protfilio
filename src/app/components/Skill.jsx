@@ -1,8 +1,8 @@
 const Skill = () => {
     return (
         <div id="skills" >
-            <h1 className=" text-4xl text-center font-bold" > My Skills </h1>
-            <p className=" text-center text-lg font-semibold mt-2" > Programming is a skill best acquired by practice and example rather than from books</p>
+            <h1 className=" text-4xl text-center font-bold text-white" > My Skills </h1>
+            <p className=" text-center text-lg font-semibold mt-2 text-warmGray-200" > Programming is a skill best acquired by practice and example rather than from books</p>
           
             <section className=" grid lg:grid-cols-3 grid-cols-1  text-center mx-auto mt-4" >
           
